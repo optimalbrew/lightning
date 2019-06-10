@@ -17,6 +17,7 @@ Generate a new address (pay 2 witness key hash, but *nested* inside a P2SH)
     alice$ lncli-alice newaddress np2wkh
 
 Stop the `btcd` process and restart giving alice mining rights using the address generated above
+
     btcd --simnet --txindex --rpcuser=kek --rpcpass=kek --miningaddr=<ALICE_ADDRESS>
 
 Generate 400 blocks (100 to make the *coinbase* funds spendable, and 400 blocks to activate **segwit**)
