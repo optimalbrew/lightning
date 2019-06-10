@@ -13,6 +13,7 @@ Once the tmux session is attached, enter a password for each user (no need to se
 
 Example:
 Generate a new address (pay 2 witness key hash, but *nested* inside a P2SH)
+    
     alice$ lncli-alice newaddress np2wkh
 
 Stop the `btcd` process and restart giving alice mining rights using the address generated above
