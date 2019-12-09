@@ -1,4 +1,4 @@
-# Lightning
+# Lightning (LND)
 Working with [lightning network](https://lightning.network/), specifically the [LND](https://github.com/lightningnetwork/lnd) implementation and associated [gRPC API](https://api.lightning.community/?python). Starting with simple deployment on EC2 and simnet to get doc examples working.
 
 ## Linux setup

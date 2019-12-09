@@ -9,8 +9,8 @@
 # https://dev.lightning.community/tutorial/01-lncli/index.html
 
 
-# git clone  
-# cd light
+# git clone 
+# cd lightning
 # chmod +x awsSetup.sh
 
 sudo apt-get update
