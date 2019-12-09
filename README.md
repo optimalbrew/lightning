@@ -3,7 +3,7 @@ Working with [lightning network](https://lightning.network/), specifically the [
 
 ## Linux setup
 The shell script `awsSetp.sh` has been tested on Ubuntu 18.04 LTS on an AWS t2 micro instance. 
-* installs `go`, `lnd`,`btcd`, `protoc`.   
+* installs `go`, `lnd`,`btcd`, `protoc` for protocol buffers.   
 * starts a `tmux` session with two windows and 8 panes
   * window 0: *"node" panes* -> 1 bitcoin node (btcd not bitcoind) and 3 LND nodes (for alice, bob and charlie). 
   * window 1: *"interaction" panes* -> 3 panes for LND's command line interface `lncli` (one each for alice, bob and charlie) and 1 pane for gRPC API with python.
