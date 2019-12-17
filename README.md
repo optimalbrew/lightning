@@ -1,7 +1,7 @@
 # Lightning (LND)
 Working with [lightning network](https://lightning.network/), specifically the [LND](https://github.com/lightningnetwork/lnd) implementation and associated [gRPC API](https://api.lightning.community/?python). Starting with simple deployment on EC2 and simnet to get doc examples working.
 
-## Ubuntu setup
+## AWS Ubuntu setup
 The shell script `awsSetp.sh` has been tested on Ubuntu 18.04 LTS on an AWS t2 micro instance. 
 * installs `go`, `lnd`,`btcd`, `protoc` for protocol buffers.   
 * starts a `tmux` session with two windows and 8 panes
